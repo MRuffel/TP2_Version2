@@ -2,9 +2,9 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<html  xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org">
 <fmt:bundle basename="i18n">
-<fmt:setLocale value="fr_CA"/>
+<fmt:setLocale value="=fr_CA"/>
 <head>
 
     <meta charset="utf-8">
@@ -29,6 +29,7 @@
 <body id="page-top">
 
 
+    
     <!-- Page Wrapper -->
     <div id="wrapper">
 
@@ -45,8 +46,7 @@
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-
-        
+     
 
             <!-- Nav Item - Charts -->
             
@@ -56,8 +56,7 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span ><fmt:message key="HomeBtn" /></span></a>
             </li>
-            
-            
+ 
             <li class="nav-item">
                 <a class="nav-link" href="Listing.jsp">
                     <i class="fas fa-fw fa-chart-area"></i>
@@ -86,11 +85,9 @@
                     <span><fmt:message key="AboutBtn" /></span></a>
             </li>
             
-            
-            
+        
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
-
 
 
         </ul>
@@ -104,41 +101,41 @@
             <div id="content">
 
                 <!-- Topbar -->
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-              
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow"> 
+                
+                           
+                
                     <button  class=" ml-auto  btn btn-primary btn-sm"  href="/ControllerServlet?langueSaisie=fr&page=Home"><fmt:message key="Fr"/></button>
                     <button class=" ml-2 mr-2 btn btn-primary btn-sm"  href="/ControllerServlet?langueSaisie=en&page=Home"><fmt:message key="En"/></button>
-
-            
+                             
+      
                 </nav>
+                 
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                             
-
-
-                    <!-- Content Row -->
+                  <!-- Content Row -->
                     <div class="container-fluid">
 
                         <!-- Page Heading -->
-                        <h1  class="h1 text-center mb-2 text-gray-900"><fmt:message key="AboutUsTitle"/></h1>
+                        <h1  class="h1 text-center mb-2 text-gray-900"><fmt:message key="HomeTitle"/></h1>
                        
                 </div>
                 <!-- /.container-fluid -->
                 <br>  
                 <br>  
-                <p class="h5  mb-2 text-gray-600"><fmt:message key="AboutUsMessage"/></p>
+                <p class="h5  mb-2 text-gray-600"><fmt:message key="HomeMessage"/></p>
                  <br>  
                 <br>  
-                <p class="h5  mb-2 text-gray-600"><fmt:message key="AboutUsMessage2"/></p>
+                <p class="h5  mb-2 text-gray-600"><fmt:message key="HomeMessage2"/></p>
                  <br>  
                 <br>  
-                <p class="h5  mb-2 text-gray-600"><fmt:message key="AboutUsMessage3"/></p>
+                <p class="h5  mb-2 text-gray-600"><fmt:message key="HomeMessage3"/></p>
                  <br>  
                 <br>  
-                <p class="h5  mb-2 text-gray-600"><fmt:message key="AboutUsMessage4"/></p>
+        
             </div>
             <!-- End of Main Content -->
           
@@ -163,25 +160,6 @@
         <i class="fas fa-angle-up"></i>
     </a>
 
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
