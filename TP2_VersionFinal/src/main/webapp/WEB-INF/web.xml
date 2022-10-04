@@ -12,4 +12,13 @@
       <welcome-file-list>
         <welcome-file>HomePage.jsp</welcome-file>
     </welcome-file-list>
+    <servlet>
+        <servlet-name>ControllerServler</servlet-name>
+        <servlet-class>com.mycompany.tp2_versionFinal2.ControllerServler</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ControllerServler</servlet-name>
+        <url-pattern>/ControllerServler</url-pattern>
+    </servlet-mapping>    
+   
 </web-app>

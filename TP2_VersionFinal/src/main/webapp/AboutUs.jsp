@@ -2,9 +2,9 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html  xmlns:th="http://www.thymeleaf.org">
 <fmt:bundle basename="i18n">
-
+<fmt:setLocale value="fr_CA"/>
 <head>
 
     <meta charset="utf-8">
@@ -28,7 +28,7 @@
 
 <body id="page-top">
 
-<fmt:setLocale value="fr_CA"/>
+
     <!-- Page Wrapper -->
     <div id="wrapper">
 
