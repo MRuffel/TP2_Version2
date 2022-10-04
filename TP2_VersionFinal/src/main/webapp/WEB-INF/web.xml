@@ -9,7 +9,8 @@
             30
         </session-timeout>
     </session-config>
-      <welcome-file-list>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
         <welcome-file>HomePage.jsp</welcome-file>
     </welcome-file-list>
     <servlet>
