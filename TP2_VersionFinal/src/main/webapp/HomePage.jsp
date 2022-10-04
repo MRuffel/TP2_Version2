@@ -45,8 +45,7 @@
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-
-        
+     
 
             <!-- Nav Item - Charts -->
             
@@ -56,8 +55,7 @@
                     <i class="fas fa-fw fa-table"></i>
                     <span ><fmt:message key="HomeBtn" /></span></a>
             </li>
-            
-            
+ 
             <li class="nav-item">
                 <a class="nav-link" href="Listing.jsp">
                     <i class="fas fa-fw fa-chart-area"></i>
@@ -86,11 +84,9 @@
                     <span><fmt:message key="AboutBtn" /></span></a>
             </li>
             
-            
-            
+        
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
-
 
 
         </ul>
@@ -104,20 +100,23 @@
             <div id="content">
 
                 <!-- Topbar -->
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow"> 
+                    
+                    <span  class="badge badge-success badge-info"><fmt:message key="Fr"/></span>
+                   <span class="badge badge-success badge-info"><fmt:message key="En"/></span>
+                             
+                            
+                                
 
-              
-
-            
+      
                 </nav>
+                 
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                             
-
-
-                    <!-- Content Row -->
+                  <!-- Content Row -->
                     <div class="container-fluid">
 
                         <!-- Page Heading -->
@@ -161,7 +160,6 @@
         <i class="fas fa-angle-up"></i>
     </a>
 
-  
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>

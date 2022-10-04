@@ -136,7 +136,7 @@
                 <p class="h5  mb-2 text-gray-600"><fmt:message key="AboutUsMessage3"/></p>
                  <br>  
                 <br>  
-        
+                <p class="h5  mb-2 text-gray-600"><fmt:message key="AboutUsMessage4"/></p>
             </div>
             <!-- End of Main Content -->
           
