@@ -121,19 +121,19 @@
                     <div class="container-fluid">
 
                         <!-- Page Heading -->
-                        <h1  class="h1 text-center mb-2 text-gray-900"><fmt:message key="HomeTitle"/></h1>
+                        <h1  class="h1 text-center mb-2 text-gray-900"><fmt:message key="AboutUsTitle"/></h1>
                        
                 </div>
                 <!-- /.container-fluid -->
                 <br>  
                 <br>  
-                <p class="h5  mb-2 text-gray-600"><fmt:message key="HomeMessage"/></p>
+                <p class="h5  mb-2 text-gray-600"><fmt:message key="AboutUsMessage"/></p>
                  <br>  
                 <br>  
-                <p class="h5  mb-2 text-gray-600"><fmt:message key="HomeMessage2"/></p>
+                <p class="h5  mb-2 text-gray-600"><fmt:message key="AboutUsMessage2"/></p>
                  <br>  
                 <br>  
-                <p class="h5  mb-2 text-gray-600"><fmt:message key="HomeMessage3"/></p>
+                <p class="h5  mb-2 text-gray-600"><fmt:message key="AboutUsMessage3"/></p>
                  <br>  
                 <br>  
         
