@@ -10,6 +10,7 @@
         </session-timeout>
     </session-config>
     <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
         <welcome-file>index.html</welcome-file>
         <welcome-file>HomePage.jsp</welcome-file>
     </welcome-file-list>
@@ -20,6 +21,5 @@
     <servlet-mapping>
         <servlet-name>ControllerServler</servlet-name>
         <url-pattern>/ControllerServler</url-pattern>
-    </servlet-mapping>    
-   
+    </servlet-mapping>
 </web-app>
